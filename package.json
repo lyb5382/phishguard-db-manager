@@ -1,6 +1,16 @@
 {
+  "name": "phishguard-db-manager",
+  "version": "1.0.0",
+  "description": "A script to fetch phishing URLs and create a blacklist.",
+  "main": "update_blacklist_node.js",
+  "type": "module",
+  "scripts": {
+    "start": "node update_blacklist_node.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "node-fetch": "^3.3.2",
-    "redis": "^5.8.3"
+    "node-fetch": "^3.3.2"
   }
 }
